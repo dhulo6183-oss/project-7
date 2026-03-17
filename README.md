@@ -58,8 +58,6 @@ When the program starts, the user sees the main menu:
 6. Explore Module Attributes (dir())
 7. Exit
 📸 Screenshot – Main Menu
-(Insert screenshot of the main menu here)
-
 (sc-1.png)
 📅 1. Datetime and Time Operations
 This section provides utilities for working with dates and time.
@@ -73,7 +71,6 @@ Options available:
 5️⃣ Countdown
 
 📸 Screenshot – Datetime Menu
-(Insert screenshot showing datetime options)
 (sc-2.png)
 ⏰ Current Date & Time
 Displays the current system date and time using Python's datetime module.
@@ -82,8 +79,6 @@ Example output:
 
 Current Date & Time: 2026-03-12 19:26:23
 📸 Screenshot – Current Date & Time
-(Insert screenshot here)
-
 (sc-3.png)
 📆 Date Difference
 Calculates the difference between two dates entered by the user.
