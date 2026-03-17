@@ -1,168 +1,156 @@
-📦 Multi-Utility Toolkit (Python CLI Project)
+# 📦 Multi-Utility Toolkit (Python CLI Project)
 
-🚀 A powerful menu-driven Python command-line toolkit that combines multiple useful utilities into a single program.
+🚀 A powerful **menu-driven Python command-line toolkit** that combines multiple useful utilities into one program.
 
-This project demonstrates real-world usage of Python’s built-in libraries like datetime, math, random, uuid, os, time, and string.
+This project demonstrates the use of Python built-in libraries like `datetime`, `math`, `random`, `uuid`, `os`, `time`, and `string`.
 
-✨ Features
+---
 
-✔️ Interactive menu-driven CLI
-✔️ Multiple utilities in one program
-✔️ Beginner-friendly structure
-✔️ Uses real-world Python modules
-✔️ Covers core programming concepts
+## ✨ Features
 
-🧰 Technologies Used
+- ✅ Menu-driven CLI interface  
+- ✅ Multiple utilities in one project  
+- ✅ Beginner-friendly and easy to understand  
+- ✅ Real-world Python functionality  
+- ✅ Covers important programming concepts  
 
-🐍 Python 3
+---
 
-📦 Built-in Modules:
+## 🧰 Technologies Used
 
-datetime
+- 🐍 Python 3  
+- 📦 Built-in Modules:
+  - datetime  
+  - math  
+  - random  
+  - uuid  
+  - os  
+  - time  
+  - string  
 
-math
+## 📋 Main Menu
 
-random
 
-uuid
+Datetime and Time Operations
 
-os
+Mathematical Operations
 
-time
+Random Data Generation
 
-string
+Generate Unique Identifiers (UUID)
 
-📋 Main Menu
+File Operations
 
-The program starts with the following interface:
+Explore Module Attributes (dir())
 
-1. Datetime and Time Operations
-2. Mathematical Operations
-3. Random Data Generation
-4. Generate Unique Identifiers (UUID)
-5. File Operations
-6. Explore Module Attributes (dir())
-7. Exit
-📸 Main Menu Preview
+Exit
+---
 
-🕒 1. Datetime and Time Operations
+📸 **Main Menu Preview**  
+![Main Menu](Screenshots/sc-1.png)
 
-Includes:
+---
 
-Current Date & Time
+## 🕒 1. Datetime and Time Operations
 
-Date Difference
+Features:
+- Current Date & Time  
+- Date Difference  
+- Format Date  
+- Stopwatch  
+- Countdown  
 
-Format Date
+📸 **Output Example**  
+![Datetime](sc-1.png)
 
-Stopwatch
+---
 
-Countdown Timer
+## 🧮 2. Mathematical Operations
 
-📸 Example
+Features:
+- Factorial  
+- Compound Interest  
+- Trigonometry  
+- Area Calculation  
 
-🧮 2. Mathematical Operations
+📸 **Output Example**  
+![Math](sc-2.png)
 
-Includes:
+---
 
-Factorial
+## 🎲 3. Random Data Generation
 
-Compound Interest
+Features:
+- Random Number  
+- Random List  
+- Random Password  
+- OTP Generator  
 
-Trigonometry
+📸 **Output Example**  
+![Random](sc-3.png)
 
-Area Calculations
+---
 
-📸 Example
+## 🆔 4. UUID Generator
 
-🎲 3. Random Data Generation
+Generate unique identifiers using Python UUID module.
 
-Includes:
+📸 **Output Example**  
+![UUID](sc-4.png)
 
-Random Number
+---
 
-Random List
+## 📁 5. File Operations
 
-Random Password
+Features:
+- Create File  
+- Write File  
+- Read File  
+- Append File  
 
-OTP Generator
+📸 **Output Example**  
+![File](sc-5.png)
 
-📸 Example
+---
 
-🆔 4. UUID Generator
+## ❌ Exit Program
 
-Generates unique identifiers using Python’s UUID module.
+Gracefully exits the application.
 
-📸 Example
+📸 **Output Example**  
+![Exit](sc-6.png)
 
-📁 5. File Operations
+---
 
-Includes:
-
-Create File
-
-Write File
-
-Read File
-
-Append File
-
-📸 Example
-
-❌ 7. Exit
-
-Safely exits the program.
-
-📸 Example
-
-📂 Project Structure
+## 📂 Project Structure
 Multi-Utility-Toolkit/
 │
 ├── 7.py
 ├── README.md
 └── Screenshots/
-    ├── sc-1.png
-    ├── sc-2.png
-    ├── sc-3.png
-    ├── sc-4.png
-    ├── sc-5.png
-    └── sc-6.png
-▶️ How to Run
-python 7.py
+├── sc-1.png
+├── sc-2.png
+├── sc-3.png
+├── sc-4.png
+├── sc-5.png
+└── sc-6.png
+
 🧠 Concepts Covered
 
-Loops 🔄
+🔄 Loops
 
-Conditional Statements ⚡
+⚡ Conditional Statements
 
-Functions 🧩
+🧩 Functions
 
-File Handling 📁
+📁 File Handling
 
-Modules & Libraries 📦
+📦 Modules
 
-CLI Design 💻
-
-📌 Sample Code Reference
-
-Your main script:
-👉
-
-🌟 Future Improvements
-
-Add GUI (Tkinter / PyQt)
-
-Save history/logs
-
-Add more utilities
-
-Improve UI design
+💻 CLI Design
 
 👨‍💻 Author
 
 Dhruv Prajapati
 
-
-Give it a ⭐ on GitHub and share it!
-
-If you want, I can also:
+## 📋 Main Menu
