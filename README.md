@@ -119,7 +119,7 @@ Time left: 2
 Time left: 1
 Time's up!
 📸 Screenshot – Countdown
-![Countdown](sc.png)
+![Countdown](sc-1.png)
 🧮 2. Mathematical Operations
 This section performs basic mathematical calculations using the math module.
 
@@ -131,7 +131,7 @@ Options include:
 4️⃣ Area Calculation
 
 📸 Screenshot – Mathematical Menu
-![Math Menu](images/math-menu.png)
+![Math Menu](images/sc-2.png)
 🔢 Factorial
 Calculates the factorial of a number.
 
@@ -140,7 +140,7 @@ Example:
 Enter number: 5
 Factorial: 120
 📸 Screenshot – Factorial
-![Factorial](images/factorial.png)
+![Factorial](sc-3.png)
 💰 Compound Interest
 Calculates compound interest amount.
 
@@ -156,7 +156,7 @@ r = Rate
 t = Time
 
 📸 Screenshot – Compound Interest
-![Compound Interest](images/compound-interest.png)
+![Compound Interest](sc-4.png)
 📐 Trigonometry
 Calculates:
 
@@ -169,7 +169,7 @@ Tan
 From a given angle in degrees.
 
 📸 Screenshot – Trigonometry
-![Trigonometry](images/trigonometry.png)
+![Trigonometry](sc-5.png)
 📏 Area Calculation
 Supports two shapes:
 
@@ -178,7 +178,7 @@ Circle
 Rectangle
 
 📸 Screenshot – Area Calculation
-![Area Calculation](images/area.png)
+![Area Calculation](sc-6.png)
 🎲 3. Random Data Generation
 Generates random data using Python's random module.
 
