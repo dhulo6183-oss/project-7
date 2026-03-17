@@ -1,55 +1,39 @@
+# 📦 Multi-Utility Toolkit (Python CLI Project)
 
-
-
-📦 Multi-Utility Toolkit (Python CLI Project)
 🚀 A powerful command-line Python toolkit that combines multiple useful utilities into a single program.
-This project demonstrates the use of several Python standard libraries such as datetime, math, random, uuid, os, time, and string.
 
-It allows users to perform many operations like:
+This project demonstrates the use of several Python standard libraries such as **datetime, math, random, uuid, os, time, and string**.
 
-📅 Date & Time utilities
+---
 
-🧮 Mathematical calculations
+## ✨ Features
 
-🎲 Random data generation
+* ✅ Menu-driven CLI interface
+* ✅ Beginner-friendly project
+* ✅ Uses multiple Python built-in modules
+* ✅ Covers loops, functions, and conditions
+* ✅ Real-world utilities in one tool
 
-🆔 UUID generation
+---
 
-📂 File operations
+## 🧰 Technologies Used
 
-🔎 Python module exploration
+* 🐍 Python 3
+* 📦 Modules Used:
 
-All features are accessible through an interactive menu-based interface in the terminal.
+  * datetime
+  * math
+  * random
+  * uuid
+  * os
+  * time
+  * string
 
-✨ Features
-✅ Menu-driven command line interface
-✅ Beginner-friendly Python project
-✅ Uses multiple built-in Python modules
-✅ Demonstrates loops, conditionals, and functions
-✅ Real-world utilities combined in one tool
+---
 
-🧰 Technologies Used
-🐍 Python 3
+## 📋 Main Menu
 
-Python Built-in Modules:
-
-datetime
-
-math
-
-random
-
-uuid
-
-os
-
-time
-
-string
-
-📋 Main Menu
-When the program starts, the user sees the main menu:
-
+```
 1. Datetime and Time Operations
 2. Mathematical Operations
 3. Random Data Generation
@@ -57,197 +41,221 @@ When the program starts, the user sees the main menu:
 5. File Operations
 6. Explore Module Attributes (dir())
 7. Exit
+```
+
 📸 Screenshot – Main Menu
-(sc-1.png)
-📅 1. Datetime and Time Operations
-This section provides utilities for working with dates and time.
+![Main Menu](sc-1.png)
 
-Options available:
+---
 
-1️⃣ Current Date & Time
-2️⃣ Date Difference
-3️⃣ Format Date
-4️⃣ Stopwatch
-5️⃣ Countdown
+## 📅 1. Datetime and Time Operations
 
-📸 Screenshot – Datetime Menu
-(sc-2.png)
-⏰ Current Date & Time
-Displays the current system date and time using Python's datetime module.
+### Options:
 
-Example output:
+* Current Date & Time
+* Date Difference
+* Format Date
+* Stopwatch
+* Countdown
 
-Current Date & Time: 2026-03-12 19:26:23
-📸 Screenshot – Current Date & Time
-(sc-3.png)
-📆 Date Difference
-Calculates the difference between two dates entered by the user.
+📸 Screenshot
+![Datetime Menu](sc-2.png)
 
-Example input:
+---
 
-Enter first date: 2026-03-01
-Enter second date: 2026-03-10
-Output:
+### ⏰ Current Date & Time
 
-Difference: 9 days
-📸 Screenshot – Date Difference
-(sc-4.png)
-🗓 Format Date
-Converts a date into a different format.
+Displays current system time.
 
-Example:
+📸
+![Current Time](sc-1.png)
 
-Input: 2026-03-12
-Output: 12-03-2026
-📸 Screenshot – Format Date
-(sc-5.png)
-⏱ Stopwatch
-Acts like a stopwatch where the user presses Enter to start and stop timing.
+---
 
-📸 Screenshot – Stopwatch
-(sc-6png)
-⏳ Countdown Timer
-Counts down seconds entered by the user.
+### 📆 Date Difference
 
-Example:
+Calculates difference between two dates.
 
-Enter seconds: 5
-Time left: 5
-Time left: 4
-Time left: 3
-Time left: 2
-Time left: 1
-Time's up!
-📸 Screenshot – Countdown
+📸
+![Date Difference](sc-1.png)
+
+---
+
+### 🗓 Format Date
+
+Formats date into readable format.
+
+📸
+![Format Date](sc-1.png)
+
+---
+
+### ⏱ Stopwatch
+
+Start/Stop timer using Enter key.
+
+📸
+![Stopwatch](sc-1.png)
+
+---
+
+### ⏳ Countdown Timer
+
+Counts down from given seconds.
+
+📸
 ![Countdown](sc-1.png)
-🧮 2. Mathematical Operations
-This section performs basic mathematical calculations using the math module.
 
-Options include:
+---
 
-1️⃣ Factorial
-2️⃣ Compound Interest
-3️⃣ Trigonometry
-4️⃣ Area Calculation
+## 🧮 2. Mathematical Operations
 
-📸 Screenshot – Mathematical Menu
-![Math Menu](images/sc-2.png)
-🔢 Factorial
-Calculates the factorial of a number.
+### Options:
+
+* Factorial
+* Compound Interest
+* Trigonometry
+* Area Calculation
+
+📸
+![Math Menu](sc-2.png)
+
+---
+
+### 🔢 Factorial
 
 Example:
 
-Enter number: 5
-Factorial: 120
-📸 Screenshot – Factorial
-![Factorial](sc-3.png)
-💰 Compound Interest
-Calculates compound interest amount.
+```
+Enter number: 2
+Factorial: 2
+```
 
-Formula used:
+📸
+![Factorial](sc-2.png)
 
+---
+
+### 💰 Compound Interest
+
+Formula:
+
+```
 Amount = P (1 + r/100)^t
-Where:
+```
 
-P = Principal
+📸
+![Compound Interest](sc-2.png)
 
-r = Rate
+---
 
-t = Time
+### 📐 Trigonometry
 
-📸 Screenshot – Compound Interest
-![Compound Interest](sc-4.png)
-📐 Trigonometry
-Calculates:
+Calculates Sin, Cos, Tan.
 
-Sin
+📸
+![Trigonometry](sc-2.png)
 
-Cos
+---
 
-Tan
+### 📏 Area Calculation
 
-From a given angle in degrees.
+Supports Circle & Rectangle.
 
-📸 Screenshot – Trigonometry
-![Trigonometry](sc-5.png)
-📏 Area Calculation
-Supports two shapes:
+📸
+![Area](sc-2.png)
 
-Circle
+---
 
-Rectangle
+## 🎲 3. Random Data Generation
 
-es/random-list.png)
-🔐 Random Password
-Generates a secure random password using letters, numbers, and symbols.
+### Features:
 
-📸 Screenshot – Random Password
-![Random Password](images/random-password.png)
-🔑 Random OTP
-Generates a 6-digit One Time Password (OTP).
+* Random Number
+* Random List
+* Random Password
+* Random OTP
 
-📸 Screenshot – Random OTP
-![Random OTP](images/random-otp.png)
-🆔 4. Generate Unique Identifiers (UUID)
-Generates a unique ID using Python's uuid module.
+📸
+![Random](sc-3.png)
 
-Example output:
+---
 
-Generated UUID: 9d76ccd0-bea7-44a2-b815-77d74646bb3b
-📸 Screenshot – UUID Generation
-![UUID](images/uuid.png)
-📂 5. File Operations
-Provides simple file handling utilities:
-
-1️⃣ Create File
-2️⃣ Write File
-3️⃣ Read File
-4️⃣ Append File
-
-📸 Screenshot – File Operations Menu
-![File Menu](images/file-menu.png)
-📄 Create File
-Creates a new file.
-
-📸 Screenshot – Create File
-![Create File](images/create-file.png)
-✍ Write File
-Writes text into a file.
-
-📸 Screenshot – Write File
-![Write File](images/write-file.png)
-📖 Read File
-Reads and displays the contents of a file.
-
-📸 Screenshot – Read File
-![Read File](images/read-file.png)
-➕ Append File
-Adds new text to an existing file.
-
-📸 Screenshot – Append File
-![Append File](images/append-file.png)
-🔍 6. Explore Module Attributes
-Allows users to enter a Python module name and view its available attributes using dir().
+## 🆔 4. UUID Generator
 
 Example:
 
-Enter module name: math
-Output shows all functions available in the module.
+```
+Generated UUID: 9d76ccd0-bea7-44a2-b815-77d74646bb3b
+```
 
-📸 Screenshot – Explore Module
-![Explore Module](images/module-explore.png)
-❌ 7. Exit Program
+📸
+![UUID](sc-4.png)
+
+---
+
+## 📂 5. File Operations
+
+### Options:
+
+* Create File
+* Write File
+* Read File
+* Append File
+
+📸
+![File Menu](sc-5.png)
+
+---
+
+## 🔍 6. Explore Module Attributes
+
+Uses `dir()` to explore modules.
+
+📸
+![Module](sc-6.png)
+
+---
+
+## ❌ 7. Exit
+
 Safely exits the program.
 
+📸
+![Exit](sc-6.png)
 
+---
 
-👨‍💻 Author
-Dhruv Prajapati
+## ⚙️ How to Run
 
+```bash
+python 7.py
+```
 
+---
 
+## ⚠️ Bug Fix (Important)
 
+In your code , replace:
 
+```python
+module = _import_(module_name)
+```
 
+with:
 
+```python
+module = __import__(module_name)
+```
 
+---
+
+## 👨‍💻 Author
+
+**Dhruv Prajapati**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
