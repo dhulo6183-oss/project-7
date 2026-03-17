@@ -60,7 +60,7 @@ When the program starts, the user sees the main menu:
 📸 Screenshot – Main Menu
 (Insert screenshot of the main menu here)
 
-![Main Menu Screenshot](images/menu.png)
+(sc-1.png)
 📅 1. Datetime and Time Operations
 This section provides utilities for working with dates and time.
 
@@ -74,8 +74,7 @@ Options available:
 
 📸 Screenshot – Datetime Menu
 (Insert screenshot showing datetime options)
-
-![Datetime Menu](images/datetime-menu.png)
+(sc-2.png)
 ⏰ Current Date & Time
 Displays the current system date and time using Python's datetime module.
 
@@ -85,7 +84,7 @@ Current Date & Time: 2026-03-12 19:26:23
 📸 Screenshot – Current Date & Time
 (Insert screenshot here)
 
-![Current Date Time](images/current-time.png)
+(sc-3.png)
 📆 Date Difference
 Calculates the difference between two dates entered by the user.
 
@@ -97,7 +96,7 @@ Output:
 
 Difference: 9 days
 📸 Screenshot – Date Difference
-![Date Difference](images/date-difference.png)
+(sc-4.png)
 🗓 Format Date
 Converts a date into a different format.
 
@@ -106,12 +105,12 @@ Example:
 Input: 2026-03-12
 Output: 12-03-2026
 📸 Screenshot – Format Date
-![Format Date](images/format-date.png)
+(sc-5.png)
 ⏱ Stopwatch
 Acts like a stopwatch where the user presses Enter to start and stop timing.
 
 📸 Screenshot – Stopwatch
-![Stopwatch](images/stopwatch.png)
+(sc-6png)
 ⏳ Countdown Timer
 Counts down seconds entered by the user.
 
@@ -125,7 +124,7 @@ Time left: 2
 Time left: 1
 Time's up!
 📸 Screenshot – Countdown
-![Countdown](images/countdown.png)
+![Countdown](sc.png)
 🧮 2. Mathematical Operations
 This section performs basic mathematical calculations using the math module.
 
