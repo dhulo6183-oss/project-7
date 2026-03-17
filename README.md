@@ -177,30 +177,7 @@ Circle
 
 Rectangle
 
-📸 Screenshot – Area Calculation
-![Area Calculation](sc-6.png)
-🎲 3. Random Data Generation
-Generates random data using Python's random module.
-
-Options include:
-
-1️⃣ Random Number
-2️⃣ Random List
-3️⃣ Random Password
-4️⃣ Random OTP
-
-📸 Screenshot – Random Menu
-![Random Menu](images/random-menu.png)
-🎯 Random Number
-Generates a random number between 1 and 100.
-
-📸 Screenshot – Random Number
-![Random Number](images/random-number.png)
-📋 Random List
-Creates a list of random numbers.
-
-📸 Screenshot – Random List
-![Random List](images/random-list.png)
+es/random-list.png)
 🔐 Random Password
 Generates a secure random password using letters, numbers, and symbols.
 
@@ -262,31 +239,7 @@ Output shows all functions available in the module.
 ❌ 7. Exit Program
 Safely exits the program.
 
-Thank you for using the Multi-Utility Toolkit!
-📸 Screenshot – Exit Program
-![Exit Program](images/exit.png)
-▶️ How to Run the Project
-1️⃣ Install Python
-2️⃣ Download or clone the repository
 
-git clone https://github.com/yourusername/multi-utility-toolkit.git
-3️⃣ Run the program
-
-python toolkit.py
-🎯 Learning Objectives
-This project helps beginners learn:
-
-Python loops
-
-Conditional statements
-
-Menu-driven programs
-
-Python built-in modules
-
-File handling
-
-Random data generation
 
 👨‍💻 Author
 Dhruv Prajapati
